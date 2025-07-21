@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/css/bootstrap.min.css"
+      integrity="sha512-fw7f+TcMjTb7bpbLJZlP8g2Y4XcCyFZW8uy8HsRZsH/SwbMw0plKHFHr99DN3l04VsYNwvzicUX/6qurvIxbxw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body class="d-flex justify-content-center align-items-center" style="height: 100vh">
+    <div class="buttons-div d-flex flex-column gap-2 col-12 col-md-6 col-lg-3 container my-5 py-5 bg-secondary rounded-4">
+      <button class="btn btn-show" onclick="showTasks()">Show Tasks</button>
+      <button class="btn btn-add" onclick="addTask()">Add Task</button>
+      <button class="btn btn-edit-name" onclick="editTaskName()">Edit Task Name</button>
+      <button class="btn btn-edit-case" onclick="editTaskCase()">Edit Task Case</button>
+      <button class="btn btn-edit-all" onclick="editEntireTask()">Edit all details of the task</button>
+      <button class="btn btn-delete" onclick="deleteTask()">Delete Task</button>
+      <button class="btn btn-clear" onclick="clearTasks()">Clear All Tasks</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
